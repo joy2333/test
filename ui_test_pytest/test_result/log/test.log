@@ -1,0 +1,110 @@
+[2022-03-09 03:43:28,175]-[INFO]-[root]-[utils.py(get_driver:16)]:启动Chrome浏览器
+[2022-03-09 03:43:29,375]-[INFO]-[root]-[utils.py(get_driver:18)]:窗口最大化
+[2022-03-09 03:43:29,503]-[INFO]-[root]-[utils.py(get_driver:20)]:设置隐性等待15秒
+[2022-03-09 03:43:29,506]-[INFO]-[root]-[base_page.py(open:25)]:正在打开URL:http://localhost/?s=user/logininfo.html
+[2022-03-09 03:43:30,236]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('name', 'accounts')中已有的内容
+[2022-03-09 03:43:30,279]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('name', 'accounts')中输入:xuzhu
+[2022-03-09 03:43:30,310]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('name', 'pwd')中已有的内容
+[2022-03-09 03:43:30,357]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('name', 'pwd')中输入:123456
+[2022-03-09 03:43:30,388]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('xpath', '/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[3]/div/input')中已有的内容
+[2022-03-09 03:43:30,432]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[3]/div/input')中输入:8888
+[2022-03-09 03:43:30,432]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('xpath', '//*[@method="post"]/div/*[@type="submit"]')
+[2022-03-09 03:43:30,482]-[INFO]-[root]-[base_page.py(wait:85)]:等待:1秒钟
+[2022-03-09 03:43:31,513]-[INFO]-[root]-[base_page.py(assert_element:115)]:正在断言，预期结果:登录帐号不存在，实际结果:登录帐号不存在
+[2022-03-09 03:43:31,516]-[INFO]-[root]-[base_page.py(open:25)]:正在打开URL:http://localhost/?s=user/logininfo.html
+[2022-03-09 03:43:31,931]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('name', 'accounts')中已有的内容
+[2022-03-09 03:43:31,969]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('name', 'accounts')中输入:admin
+[2022-03-09 03:43:31,995]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('name', 'pwd')中已有的内容
+[2022-03-09 03:43:32,041]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('name', 'pwd')中输入:123456
+[2022-03-09 03:43:32,070]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('xpath', '/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[3]/div/input')中已有的内容
+[2022-03-09 03:43:32,111]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[3]/div/input')中输入:7777
+[2022-03-09 03:43:32,112]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('xpath', '//*[@method="post"]/div/*[@type="submit"]')
+[2022-03-09 03:43:32,152]-[INFO]-[root]-[base_page.py(wait:85)]:等待:1秒钟
+[2022-03-09 03:43:33,173]-[INFO]-[root]-[base_page.py(assert_element:115)]:正在断言，预期结果:验证码错误，实际结果:验证码错误
+[2022-03-09 03:43:33,176]-[INFO]-[root]-[base_page.py(open:25)]:正在打开URL:http://localhost/?s=user/logininfo.html
+[2022-03-09 03:43:33,561]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('name', 'accounts')中已有的内容
+[2022-03-09 03:43:33,601]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('name', 'accounts')中输入:admin
+[2022-03-09 03:43:33,627]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('name', 'pwd')中已有的内容
+[2022-03-09 03:43:33,671]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('name', 'pwd')中输入:111111
+[2022-03-09 03:43:33,704]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('xpath', '/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[3]/div/input')中已有的内容
+[2022-03-09 03:43:33,747]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[3]/div/input')中输入:8888
+[2022-03-09 03:43:33,747]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('xpath', '//*[@method="post"]/div/*[@type="submit"]')
+[2022-03-09 03:43:33,790]-[INFO]-[root]-[base_page.py(wait:85)]:等待:1秒钟
+[2022-03-09 03:43:34,821]-[INFO]-[root]-[base_page.py(assert_element:115)]:正在断言，预期结果:密码错误，实际结果:密码错误
+[2022-03-09 03:43:34,824]-[INFO]-[root]-[base_page.py(open:25)]:正在打开URL:http://localhost/?s=user/logininfo.html
+[2022-03-09 03:43:35,214]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('name', 'accounts')中已有的内容
+[2022-03-09 03:43:35,257]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('name', 'accounts')中输入:admin
+[2022-03-09 03:43:35,286]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('name', 'pwd')中已有的内容
+[2022-03-09 03:43:35,331]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('name', 'pwd')中输入:123456
+[2022-03-09 03:43:35,360]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('xpath', '/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[3]/div/input')中已有的内容
+[2022-03-09 03:43:35,400]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[3]/div/input')中输入:8888
+[2022-03-09 03:43:35,400]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('xpath', '//*[@method="post"]/div/*[@type="submit"]')
+[2022-03-09 03:43:35,442]-[INFO]-[root]-[base_page.py(wait:85)]:等待:1秒钟
+[2022-03-09 03:43:36,467]-[INFO]-[root]-[base_page.py(assert_element:115)]:正在断言，预期结果:登录成功，实际结果:登录成功
+[2022-03-09 03:43:36,469]-[INFO]-[root]-[utils.py(close_driver:26)]:关闭Chrome浏览器
+[2022-03-09 03:43:38,577]-[INFO]-[root]-[utils.py(get_driver:16)]:启动Chrome浏览器
+[2022-03-09 03:43:39,717]-[INFO]-[root]-[utils.py(get_driver:18)]:窗口最大化
+[2022-03-09 03:43:39,847]-[INFO]-[root]-[utils.py(get_driver:20)]:设置隐性等待15秒
+[2022-03-09 03:43:39,848]-[INFO]-[root]-[base_page.py(open:25)]:正在打开URL:http://localhost/?s=user/logininfo.html
+[2022-03-09 03:43:40,502]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('name', 'accounts')中已有的内容
+[2022-03-09 03:43:40,544]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('name', 'accounts')中输入:admin
+[2022-03-09 03:43:40,574]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('name', 'pwd')中已有的内容
+[2022-03-09 03:43:40,620]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('name', 'pwd')中输入:123456
+[2022-03-09 03:43:40,650]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('xpath', '/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[3]/div/input')中已有的内容
+[2022-03-09 03:43:40,689]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[3]/div/input')中输入:8888
+[2022-03-09 03:43:40,689]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('xpath', '//*[@method="post"]/div/*[@type="submit"]')
+[2022-03-09 03:43:40,736]-[INFO]-[root]-[base_page.py(wait:85)]:等待:1秒钟
+[2022-03-09 03:43:41,763]-[INFO]-[root]-[base_page.py(assert_element:115)]:正在断言，预期结果:登录成功，实际结果:登录成功
+[2022-03-09 03:43:41,763]-[INFO]-[root]-[base_page.py(wait:85)]:等待:1秒钟
+[2022-03-09 03:43:42,887]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('name', 'wd')中已有的内容
+[2022-03-09 03:43:42,924]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('name', 'wd')中输入:iphone
+[2022-03-09 03:43:42,924]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('id', 'ai-topsearch')
+[2022-03-09 03:43:43,461]-[INFO]-[root]-[base_page.py(assert_element:115)]:正在断言，预期结果:更多1，实际结果:更多
+[2022-03-09 03:43:43,462]-[INFO]-[root]-[base_page.py(assert_element:118)]:断言失败，失败原因：断言失败，预期结果:更多1，实际结果为:更多
+[2022-03-09 03:43:43,621]-[INFO]-[root]-[base_page.py(save_scree_image:136)]:错误页面截图成功，图表保存的路径:D:\code\Python\ui_test_pytest\test_result\images/1646768623.4627485.png
+[2022-03-09 03:43:43,681]-[INFO]-[root]-[base_page.py(wait:85)]:等待:1秒钟
+[2022-03-09 03:43:44,716]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('name', 'wd')中已有的内容
+[2022-03-09 03:43:44,752]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('name', 'wd')中输入:包包
+[2022-03-09 03:43:44,752]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('id', 'ai-topsearch')
+[2022-03-09 03:43:45,320]-[INFO]-[root]-[base_page.py(assert_element:115)]:正在断言，预期结果:更多，实际结果:更多
+[2022-03-09 03:43:45,321]-[INFO]-[root]-[utils.py(close_driver:26)]:关闭Chrome浏览器
+[2022-03-09 03:43:47,444]-[INFO]-[root]-[utils.py(get_driver:16)]:启动Chrome浏览器
+[2022-03-09 03:43:48,649]-[INFO]-[root]-[utils.py(get_driver:18)]:窗口最大化
+[2022-03-09 03:43:48,763]-[INFO]-[root]-[utils.py(get_driver:20)]:设置隐性等待15秒
+[2022-03-09 03:43:48,765]-[INFO]-[root]-[base_page.py(open:25)]:正在打开URL:http://localhost/?s=user/logininfo.html
+[2022-03-09 03:43:49,394]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('name', 'accounts')中已有的内容
+[2022-03-09 03:43:49,433]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('name', 'accounts')中输入:admin
+[2022-03-09 03:43:49,464]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('name', 'pwd')中已有的内容
+[2022-03-09 03:43:49,507]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('name', 'pwd')中输入:123456
+[2022-03-09 03:43:49,538]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('xpath', '/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[3]/div/input')中已有的内容
+[2022-03-09 03:43:49,578]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('xpath', '/html/body/div[4]/div/div[2]/div[2]/div/div/div[1]/form/div[3]/div/input')中输入:8888
+[2022-03-09 03:43:49,578]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('xpath', '//*[@method="post"]/div/*[@type="submit"]')
+[2022-03-09 03:43:49,624]-[INFO]-[root]-[base_page.py(wait:85)]:等待:1秒钟
+[2022-03-09 03:43:50,661]-[INFO]-[root]-[base_page.py(assert_element:115)]:正在断言，预期结果:登录成功，实际结果:登录成功
+[2022-03-09 03:43:50,663]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('xpath', '//*[contains(text(),"个人中心")]')
+[2022-03-09 03:43:50,706]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('xpath', '//*[contains(text(),"我的地址")]/i')
+[2022-03-09 03:43:52,165]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('css selector', '[data-popup-title="新增地址"]')
+[2022-03-09 03:43:52,208]-[INFO]-[root]-[base_page.py(wait:85)]:等待:1秒钟
+[2022-03-09 03:43:53,218]-[INFO]-[root]-[base_page.py(close_popup:150)]:关闭弹出框
+[2022-03-09 03:43:53,223]-[INFO]-[root]-[base_page.py(switch_frame:91)]:切换Iframe：('xpath', '/html/body/div[9]/div/div[2]/iframe')
+[2022-03-09 03:43:53,447]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('css selector', '[name="alias"]')中已有的内容
+[2022-03-09 03:43:53,559]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('css selector', '[name="alias"]')中输入:测试
+[2022-03-09 03:43:53,591]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('css selector', '[name="name"]')中已有的内容
+[2022-03-09 03:43:53,637]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('css selector', '[name="name"]')中输入:张三
+[2022-03-09 03:43:53,669]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('css selector', '[name="tel"]')中已有的内容
+[2022-03-09 03:43:53,720]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('css selector', '[name="tel"]')中输入:13322224444
+[2022-03-09 03:43:53,720]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('xpath', '/html/body/div[1]/form/div[4]/div[1]')
+[2022-03-09 03:43:53,800]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('xpath', '/html/body/div[1]/form/div[4]/div[1]/div/ul/li[2]')
+[2022-03-09 03:43:53,862]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('xpath', '//a[@tabindex="-1"]/span[contains(text(),"城市")]')
+[2022-03-09 03:43:53,919]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('xpath', '/html/body/div[1]/form/div[4]/div[2]/div/ul/li[2]')
+[2022-03-09 03:43:54,036]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('xpath', '//a[@tabindex="-1"]/span[contains(text(),"区/县")]')
+[2022-03-09 03:43:54,102]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('xpath', '/html/body/div[1]/form/div[4]/div[3]/div/ul/li[2]')
+[2022-03-09 03:43:54,261]-[INFO]-[root]-[base_page.py(input:53)]:清除文本框('css selector', '[name="address"]')中已有的内容
+[2022-03-09 03:43:54,299]-[INFO]-[root]-[base_page.py(input:59)]:在元素:('css selector', '[name="address"]')中输入:测试地址
+[2022-03-09 03:43:54,299]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('xpath', '/html/body/div[1]/form/div[7]/button')
+[2022-03-09 03:43:54,365]-[INFO]-[root]-[base_page.py(switch_default:99)]:切换default窗体
+[2022-03-09 03:43:54,367]-[INFO]-[root]-[base_page.py(wait:85)]:等待:2秒钟
+[2022-03-09 03:43:56,380]-[INFO]-[root]-[base_page.py(click_:76)]:js方式点击元素:('xpath', '/html/body/div[4]/div[3]/div/ul/li[1]/div[2]/a[3]')
+[2022-03-09 03:43:56,400]-[INFO]-[root]-[base_page.py(click:67)]:点击元素:('xpath', '/html/body/div[9]/div/div[3]/span[2]')
+[2022-03-09 03:43:56,586]-[INFO]-[root]-[base_page.py(assert_element:115)]:正在断言，预期结果:删除成功，实际结果:删除成功
+[2022-03-09 03:43:56,587]-[INFO]-[root]-[utils.py(close_driver:26)]:关闭Chrome浏览器

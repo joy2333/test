@@ -1,0 +1,6 @@
+-
+  url : 'http://localhost/?s=user/logininfo.html'
+  username : admin
+  password : '123456'
+  verify_code : '8888'
+  expect : '登录成功'

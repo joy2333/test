@@ -1,0 +1,31 @@
+[2022-03-09 03:46:46,676]-[INFO]-[root]-[test_single.py(test_cases:31)]:-------正在测试【首页】模块里面第【1】条测试用例：【登录】
+[2022-03-09 03:46:46,677]-[INFO]-[root]-[test_single.py(test_cases:32)]:-------接口URL:http://47.97.33.96:5000/login
+[2022-03-09 03:46:46,677]-[INFO]-[root]-[test_single.py(test_cases:33)]:-------接口入参:{"account":"admin","password":"123456"}
+[2022-03-09 03:46:46,677]-[INFO]-[root]-[test_single.py(test_cases:34)]:-------请求方式:post
+[2022-03-09 03:46:46,678]-[INFO]-[root]-[test_single.py(test_cases:35)]:-------请求头headers:{'Content-Type': 'application/json;charset=UTF-8', 'method': 'login', 'token': '77aa-0a4f-468e-b3b9-ede1'}
+[2022-03-09 03:46:46,678]-[INFO]-[root]-[test_single.py(test_cases:36)]:-------预期结果:{"code":0,"msg":"OK"}
+[2022-03-09 03:46:46,830]-[INFO]-[root]-[test_rst.py(test_cases:52)]:-------正在测试【报销管理】模块里面第【1】条测试用例：【新增报销单】
+[2022-03-09 03:46:46,830]-[INFO]-[root]-[test_rst.py(test_cases:53)]:-------接口URL:http://47.97.33.96:5000/expense
+[2022-03-09 03:46:46,830]-[INFO]-[root]-[test_rst.py(test_cases:54)]:-------接口入参:{}
+[2022-03-09 03:46:46,830]-[INFO]-[root]-[test_rst.py(test_cases:55)]:-------请求方式:post
+[2022-03-09 03:46:46,830]-[INFO]-[root]-[test_rst.py(test_cases:56)]:-------请求头headers:{'Content-Type': 'application/json;charset=UTF-8', 'method': 'saveExpense', 'token': '77aa-0a4f-468e-b3b9-ede1'}
+[2022-03-09 03:46:46,830]-[INFO]-[root]-[test_rst.py(test_cases:57)]:-------预期结果:{"code":0,"msg":"OK"}
+[2022-03-09 03:46:46,960]-[INFO]-[root]-[test_rst.py(test_cases:52)]:-------正在测试【报销管理】模块里面第【2】条测试用例：【查询报销单】
+[2022-03-09 03:46:46,961]-[INFO]-[root]-[test_rst.py(test_cases:53)]:-------接口URL:http://47.97.33.96:5000/expense
+[2022-03-09 03:46:46,961]-[INFO]-[root]-[test_rst.py(test_cases:54)]:-------接口入参:{"expenseNumber": "BXN2131012000201"}
+[2022-03-09 03:46:46,961]-[INFO]-[root]-[test_rst.py(test_cases:55)]:-------请求方式:post
+[2022-03-09 03:46:46,961]-[INFO]-[root]-[test_rst.py(test_cases:56)]:-------请求头headers:{'Content-Type': 'application/json;charset=UTF-8', 'method': 'searchExpense', 'token': '77aa-0a4f-468e-b3b9-ede1'}
+[2022-03-09 03:46:46,961]-[INFO]-[root]-[test_rst.py(test_cases:57)]:-------预期结果:{"code":0,"msg":"OK"}
+[2022-03-09 03:46:47,118]-[INFO]-[root]-[test_rst.py(test_cases:52)]:-------正在测试【报销管理】模块里面第【3】条测试用例：【审批报销单】
+[2022-03-09 03:46:47,118]-[INFO]-[root]-[test_rst.py(test_cases:53)]:-------接口URL:http://47.97.33.96:5000/expense
+[2022-03-09 03:46:47,118]-[INFO]-[root]-[test_rst.py(test_cases:54)]:-------接口入参:{"expenseNumber": "BXN2131012000201"}
+[2022-03-09 03:46:47,118]-[INFO]-[root]-[test_rst.py(test_cases:55)]:-------请求方式:post
+[2022-03-09 03:46:47,118]-[INFO]-[root]-[test_rst.py(test_cases:56)]:-------请求头headers:{'Content-Type': 'application/json;charset=UTF-8', 'method': 'approveExpense', 'token': '77aa-0a4f-468e-b3b9-ede1'}
+[2022-03-09 03:46:47,118]-[INFO]-[root]-[test_rst.py(test_cases:57)]:-------预期结果:{"code":0,"msg":"OK"}
+[2022-03-09 03:46:47,307]-[INFO]-[root]-[test_rst.py(test_cases:52)]:-------正在测试【报销管理】模块里面第【4】条测试用例：【付款报销单】
+[2022-03-09 03:46:47,307]-[INFO]-[root]-[test_rst.py(test_cases:53)]:-------接口URL:http://47.97.33.96:5000/expense
+[2022-03-09 03:46:47,307]-[INFO]-[root]-[test_rst.py(test_cases:54)]:-------接口入参:{"expenseNumber": "BXN2131012000201"}
+[2022-03-09 03:46:47,307]-[INFO]-[root]-[test_rst.py(test_cases:55)]:-------请求方式:post
+[2022-03-09 03:46:47,307]-[INFO]-[root]-[test_rst.py(test_cases:56)]:-------请求头headers:{'Content-Type': 'application/json;charset=UTF-8', 'method': 'paymentExpense', 'token': '77aa-0a4f-468e-b3b9-ede1'}
+[2022-03-09 03:46:47,307]-[INFO]-[root]-[test_rst.py(test_cases:57)]:-------预期结果:{"code":0,"msg":"OK"}
+[2022-03-09 03:46:51,595]-[INFO]-[root]-[send_main.py(mail:41)]:邮件发送成功
