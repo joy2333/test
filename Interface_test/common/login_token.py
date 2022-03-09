@@ -3,10 +3,13 @@ import requests
 
 
 class login_token:
-    """environment:测试环境uat or stg"""
 
     @staticmethod
     def get_token(environment):
+        """
+        获取token
+        environment:环境uat/stg
+        """
         login_header = {'Content-Type': "application/json;charset=UTF-8"}
         login_response = None
         login_data = None

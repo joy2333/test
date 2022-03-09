@@ -2,6 +2,10 @@ import ast
 
 
 def get_header(headers, token):
+    """
+    headers:字符串类型json数据的headers
+    token:字符串类型的token
+    """
     headers = ast.literal_eval(headers)  # 将读取出来的headers转换成字典
     headers['token'] = token
     return headers

@@ -12,7 +12,7 @@ class DoExcel:
         self.sheet_name = sheet_name  # 表单名
 
     def read_data(self, section):  # section 配置文件里面的片段名 可以根据你的指定来执行具体的用例
-        """从Excel读取数据，有返回值"""
+        """从Excel读取数据，返回json数据"""
         # 从配置文件里面控制读取哪些用例
         case_id = ReadConfig(conf_path).get_data(section, 'case_id')
         wb = load_workbook(self.file_name)

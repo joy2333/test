@@ -9,6 +9,11 @@ my_pass = 'ecejgziuqbxpchgi'  # 发件人邮箱密码
 
 
 def mail(filename, addressee):
+    """
+    param filename: 文件路径
+    param addressee: 邮箱列表
+    return: 邮件发送成功/失败
+    """
     ret = True
     try:
 

@@ -74,6 +74,11 @@ class DBUtil:
 
 # 入参：sql语句，库名
 def implement_sql(sql, database, environment="uat"):
+    """
+    sql:sql语句
+    database:数据库名称
+    environment:环境
+    """
     if environment == "uat":
         host, port, username, password = ReadConfig(conf_path).get_data('mysql_uat', 'db_config')
     else:
