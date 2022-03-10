@@ -5,6 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from base.project_path import screenshot_path
 from selenium.webdriver.support.select import Select
+from selenium.webdriver.common.action_chains import ActionChains
 
 
 def open_driver(type_):
@@ -47,7 +48,6 @@ class BasePage:
             logging.info('找不到元素，异常原因：{}'.format(e))
             raise
 
-    # 输入
     def input(self, loc, txt, display=False):
         """
         在元素中输入文本内容
@@ -70,7 +70,6 @@ class BasePage:
             logging.info('在元素中输入内容失败，异常原因：:{}'.format(e))
             raise
 
-    # 点击
     def click(self, loc, display=False):
         """
         loc: 元素的定位方式，例如：(By.ID, ’id‘)
@@ -83,7 +82,6 @@ class BasePage:
             logging.info('点击元素失败，异常原因为:{}'.format(e))
             raise
 
-    # js点击
     def click_js(self, loc, display=False):
         """
         使用js脚本点击元素
@@ -95,6 +93,19 @@ class BasePage:
             self.driver.execute_script("arguments[0].click();", self.locator(loc, display))
         except Exception as e:
             logging.info('js方式点击元素失败，异常原因为:{}'.format(e))
+            raise
+
+    def click_move(self, loc, x, y, display=False):
+        """
+        偏移点击元素
+        param loc: 元素的定位方式，例如：(By.ID, ’id‘)
+        param display: 是否使用显示等待的方式查找元素，入参为True/False
+        """
+        try:
+            logging.info('点击元素:{}时，偏移x:{},y:{}'.format(loc, x, y))
+            ActionChains(self.driver).move_to_element(self.locator(loc, display)).move_by_offset(x, y).click().perform()
+        except Exception as e:
+            logging.info('偏移点击元素失败，异常原因为:{}'.format(e))
             raise
 
     @staticmethod
