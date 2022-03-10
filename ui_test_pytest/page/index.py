@@ -12,13 +12,14 @@ class SearchPage(BasePage):
     immediately_buy = (By.CSS_SELECTOR, '[title="点此按钮到下一步确认购买信息"]')
     cash_payment = (By.XPATH, '//*[contains(text(),"现金支付")]')
     submit_order = (By.CSS_SELECTOR, '[title="点击此按钮，提交订单"]')
-    brand = (By.XPATH, '/html/body/div[11]/div/p')
+    price = (By.CSS_SELECTOR, '[data-value="0-100"]')
+    tips = (By.XPATH, '/html/body/div[11]/div/p')
 
     def search(self, name, expect):
         self.wait(1)
         self.input(self.search_input, name)
         self.click(self.search_button)
-        self.assert_element(self.brand, expect)
+        self.assert_element(self.price, expect)
 
     def shopping(self, name, expect):
         self.wait(1)
@@ -35,4 +36,4 @@ class SearchPage(BasePage):
         self.click(self.cash_payment)
         self.close_popup()
         self.click(self.submit_order)
-        self.assert_element(self.brand, expect)
+        self.assert_element(self.tips, expect)
